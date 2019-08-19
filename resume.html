@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Resume</title>
+    <style>
+      body {
+        text-align: center;
+        background-color: #282c34;
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        margin: 0;
+        font-size: 20px;
+        font-family: sans-serif, serif, Arial, Helvetica, sans-serif;
+        font-style: italic;
+      }
+
+      body h3 {
+        font-size: 24px;
+      }
+      header h1 {
+        background: #6e7078;
+        padding: 10px 0;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 2vmin);
+        text-transform: uppercase;
+        font-family: monospace !important;
+        color: #61dafb;
+        text-shadow: 1px 1px 2px #000, 0 0 25px #00f, 0 0 5px #00008b;
+      }
+      header h1 p {
+        margin: 0;
+      }
+      header h1 span {
+        text-transform: capitalize;
+        font-style: italic;
+      }
+      main {
+        width: 80%;
+        background-color: #282c34;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 7px;
+        box-shadow: inset 0 -3px 8px rgba(31, 29, 29, 0.6),
+          inset 0 3px 8px rgba(252, 255, 255, 0.7),
+          0 3px 8px -3px rgba(0, 0, 0, 0.8);
+      }
+      section {
+        background-color: #ccc;
+        margin: 0 20px;
+        border: 1px solid #61dafb;
+        border-radius: 7px;
+        box-shadow: inset 0 -3px 8px rgba(31, 29, 29, 0.6),
+          inset 0 3px 8px rgba(252, 255, 255, 0.7),
+          0 3px 8px -3px rgba(0, 0, 0, 0.8);
+        margin-bottom: 20px;
+      }
+      footer {
+        width: 100%;
+        margin-top: 10px;
+      }
+      footer p {
+        background: #6e7078;
+        padding: 10px 0;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #61dafb;
+        font-size: calc(6px + 2vmin);
+        text-transform: uppercase;
+        font-family: monospace !important;
+        text-shadow: 1px 1px 2px #000, 0 0 25px #00f, 0 0 5px #00008b;
+        margin-bottom: 0;
+        text-transform: capitalize;
+        font-style: italic;
+      }
+
+      .skills {
+        font-size: 17px;
+        font-weight: 600;
+      }
+      .skills ul {
+        display: inline-block;
+        margin-top: 0;
+        padding-bottom: 20px;
+      }
+      .skills ul li {
+        text-align: left;
+      }
+      .experience {
+        text-align: left;
+        padding-left: 20px;
+      }
+
+      .experience h3 {
+        text-align: center;
+      }
+
+      .bold {
+        font-weight: 600;
+        font-size: 24px;
+      }
+
+      .center button {
+        padding: 10px 30px;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 7px;
+      }
+
+      .center {
+        text-align: center;
+      }
+
+      .center button {
+        background: #444444;
+        color: #61dafb;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <p>Resume</p>
+        <span>Ponomarenko Volodymyr</span>
+      </h1>
+    </header>
+    <main>
+      <section class="education">
+        <h3>Education</h3>
+        <p>1999-2003</p>
+        <span>Kherson Marine Engineering College.</span>
+        <p>Installation and design of ship machinery.</p>
+        <hr />
+        <p>2018-2020</p>
+        <p>Admiral Makarov National University of Shipbuilding</p>
+        <p>Computer Science - Bachelor's degree</p>
+      </section>
+      <section class="skills">
+        <h3>Skills</h3>
+        <ul>
+          <li>ReactJS</li>
+          <hr />
+          <li>Redux(Redux-thunk, Redux-Saga)</li>
+          <hr />
+          <li>JavaScript(vanilla)</li>
+          <hr />
+          <li>JavaScript(modern)</li>
+        </ul>
+        <ul>
+          <li>React Native(basic)</li>
+          <hr />
+          <li>JQuery</li>
+          <hr />
+          <li>HTML</li>
+          <hr />
+          <li>CSS</li>
+        </ul>
+        <ul>
+          <li>NodeJS(expess) - basic.</li>
+          <hr />
+          <li>Sass(scss)</li>
+          <hr />
+          <li>GIT</li>
+          <hr />
+          <li>Webpack</li>
+        </ul>
+      </section>
+      <section class="experience">
+        <h3>Experience</h3>
+        <p>
+          March 2017 - February 2017 freelancer. Started as a template creator.
+          After half a year as a JS developer. Responsibilities: creating sites,
+          landing pages.
+        </p>
+        <hr />
+        <p>March 2018 - August 2019 Front-End developer in GeeksForLess Inc.</p>
+        <p>Responsibilities - frontend development for:</p>
+        <hr />
+        <p>
+          Project 1: <span class="bold">Shopdeluxe</span> for mobile devices.
+          <p>Please do this steps on site page that you can see mobile version of site before checking:
+            <ol>
+              <li>F12</li>
+              <li>Ctrl + Shift + M</li>
+              <li>F5</li>
+            </ol>
+          </p>
+          <p class="center">
+              <a href="https://www.deluxe.com/shopdeluxe/home" target="_blank"
+              ><button>Go to Observe</button></a>
+          </p>
+        </p>
+        <hr />
+        <p>Project 2: <span class="bold">Bags & Bows</span> for mobile devices.</p>
+        <p>Please do this steps on site page that you can see mobile version of site before checking:
+            <ol>
+              <li>F12</li>
+              <li>Ctrl + Shift + M</li>
+              <li>F5</li>
+            </ol>
+          </p>
+          <p class="center">
+            <a href="https://www.bagsandbowsonline.com/retail-packaging/home" target="_blank"
+            ><button>Go to Observe</button></a>
+          </p>
+        </p>
+        <hr />
+        <p>Project 3: <span class="bold">Professional Cloud Hosting</span></p>
+        <p>
+            <p class="center">
+                <a href="https://www.aplus.net" target="_blank"
+                ><button>Go to Observe</button></a>
+            </p>
+        </p>
+        </section>
+      <section>
+        <h3>Languages</h3>
+        <p>English - B1</p>
+        <p>Ukrainian - native</p>
+        <p>Russian - native</p>
+        <p>French - beginner</p>
+      </section>
+      <section>
+        <h3>Aims</h3>
+        <p>Fullstack JavaScript developer</p>
+        <p>English level - C+</p>
+        <p>French level - B+</p>
+      </section>
+    </main>
+    <footer>
+      <p>18.08.2019 &copy; Ponomarenko Volodymyr</p>
+    </footer>
+  </body>
+</html>
